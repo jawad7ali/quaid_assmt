@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "8525c054-370a-4808-a3a8-fc5fd722916b",
+		"name": "Quaid",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "jawad7ali@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "jawad",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "123456Aa",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://localhost:8000/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "jawad7ali@gmail.com",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "123456Aa1",
+							"type": "default"
+						}
+					]
+				},
+				"url": "http://localhost:8000/login"
+			},
+			"response": []
+		}
+	]
+}
